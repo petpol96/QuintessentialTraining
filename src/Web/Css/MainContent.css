@@ -1,0 +1,90 @@
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+
+.ContentBox{
+    position:absolute;
+    width: 1140px;
+    height: 680px;
+
+    left: 226px;
+    top: 88px;
+}
+
+.ContentItem{
+    position:relative;
+
+    width: 295px;
+    height: 144px;
+}
+
+.ContentItemContainer{
+    position:absolute;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 17px;
+    left: 73px;;
+    top: 78px;
+    width: 917px;
+    height: 144px;
+}
+
+.ContentItemTextBox{
+    position:absolute;
+    left:63px;
+    top: 61px;
+    width: 231px;
+    height: 82px;
+    background: #FDFDFD;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+}
+
+.ContentItemHeader{
+    position:absolute;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+
+    top: 8px;
+    left: 34px;
+    width: 164px;
+    height: 30px;
+    
+    align-items: center;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    opacity: 0.87;
+}
+
+.ContentItemComment{
+    position: absolute;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+
+    left: 34px;
+    top: 39px;
+    width: 169px;
+    height: 32px;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    opacity: 0.34;
+}
+
+.ContentItemCircle{
+    position:absolute;
+    width: 112px;
+    height: 111px;
+    left:10.17px;
+    
+    z-index:-1;
+    top:10.11;
+    
+    border-radius: 90px;
+    
+}

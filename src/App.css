@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+
+
+
+
+.MainLogo{
+  position: absolute;
+  width: 181px;
+  height: 43px;
+  left: 17px;
+  top: 45px;
+}
+
+.MainLogoText{
+  position: absolute;
+  left: 62px;
+  top:0;
+  width: 119px;
+  height: 39;
+  
+
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  
+
+
+  color: #282121;
+
+  border-radius: 4px;
+}
+
+.MainLogoMenu{
+  position: absolute;
+  width: 109px;
+  height: 17px;
+  left: 15px;
+  top: 191px;
+}
+
+.MainMenuText{
+  position: absolute;
+  width: 226px;
+  height: 12px;
+  left: 23px;
+  top:0px;
+  
+
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 10px;
+  top: 3px;
+  line-height: 12px;
+  /* identical to box height */
+  align-items: center;
+  text-transform: uppercase;
+
+  color: rgba(0, 0, 0, 0.58);
+}
+
+.MainTab{
+  position:relative;
+  width: 226px;
+  height: 44px;
+  border-radius: 0px;
+}
+.MainTabBox{
+  position:absolute;
+  height:198px;
+  width: 226px;
+  left: 0px;
+  top: 224px;
+  display:grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.MainImageTabs{
+  position: absolute;
+  left: 33px;
+  top: 12px;
+}
+
+.MainTabsText{
+  position: absolute;
+  left: 68px;
+  top:12px;
+  bottom:12px;
+
+  font-family: 'SF Pro Display';
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  border-radius: 4px;
+}
+
+.LineY{
+  position: absolute;
+  width: 768.07px;
+  height: 0px;
+  left: -158px;
+  top: 380px;
+  
+  border: 2px solid #DADADA;
+  transform: rotate(-90deg);
+}
+
+.SideBar{
+  width: 226px;
+  height:768px;
+  top:0%;
+  left:0%;
+}
+
+.LineX{
+  position: absolute;
+  width: 1140.04px;
+  height: 0px;
+  left: 226px;
+  top: 88px;
+
+  border: 2px solid #DADADA;
+}
+.MainHeadline{
+  position:absolute;
+  width:1140px;
+  height: 88px;
+
+  left: 226px;
+  top:0;
+
+}
+.MainHeadlineText{
+  position: absolute;
+  left: 28px;
+  top: 38px;
+
+
+  font-family: 'SF Pro Display';
+  font-size: 21px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+
+  color: #282121;
+
+  border-radius: 4px;
+}
+.MainHeadlineInput{
+  box-sizing: border-box;
+
+  position: absolute;
+  right: 30px;
+  bottom: 19px;
+  
+  width: 477px;
+  height: 36px;
+
+  padding-left:54px ;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+ 
+
+  background: #FFFFFF;
+  border: 1px solid #B6B6B6;
+  border-radius: 8px;
+  outline: none !important;
+}
+.MainHeadlineSearchIcon{
+  position:absolute;
+  left: 644px;
+  top:40.46px;
+  z-index: 1;
+}
+
+
